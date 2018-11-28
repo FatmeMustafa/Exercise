@@ -1,0 +1,49 @@
+body {
+    background-color: #7EBDC2;
+    color: #231F20; 
+    font-family: Lato;
+}
+#blogpostsContainerID {
+    padding: 20px;
+}
+h1 {
+    color:#BB4430;
+    text-align: center;
+    padding: 20px;
+    border-bottom-style: solid;
+    border-top-style: solid;
+    border-color: rgb(243, 226, 175);
+    border-width: 10px;
+}
+#blogposts {
+    background-color: rgb(233, 220, 220);
+    padding: 10px;
+    border-style: solid;
+    border-color: rgb(243, 226, 175);
+}
+#blogposts p {
+    margin-top: -15px;
+}
+#blogposts span,
+button {
+    border-radius: 5px;
+    padding: 4px;
+    text-align: center;
+    background-color: #BB4430;
+    color:rgb(243, 226, 175);
+    width: 130px;
+}
+#blogposts button {
+    border: 0px;
+    margin-left: 10px;
+    font-family: Lato;
+    font-size: 15px;
+    background-color:rgb(243, 226, 175);
+    color: #BB4430;
+    cursor: pointer;
+}
+.loadedComments {
+    padding: 10px;
+    margin-top: 15px;
+    background-color:rgb(243, 226, 175); 
+}
