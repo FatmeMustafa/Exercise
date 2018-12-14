@@ -8,8 +8,27 @@
     <title>Väl Godkänd</title>
 </head>
 <body>
+  
+  <!--navigation-->
+  <nav>
+    <a href="#" id="posts">Posts</a>
+    <a href="#" id="newPost" style="margin-left: 20px;">New Post</a>
+  </nav>
 
-  <!-- HTML för att implementera krav A-E -->
+  <h1 id="headline">JsonPlaceHolder - Blogposts</h1>
+  
+  <!--form-->
+  <div id="myFormID">
+    <h1>Add a blogpost</h1>
+    <form id="myForm">
+      <label>Title:</label><br>
+      <input type="text" id="userTitle">
+      <label>Content</label><br>
+      <textarea id="userContent"></textarea><br>
+      <button type="submit" id="submitForm">SUBMIT</button><br>
+      <span id="status"></span>
+    </form>
+  </div>
 
   <!-- Scripts -->
   <script src="https://unpkg.com/jquery@3.3.1/dist/jquery.js"></script>

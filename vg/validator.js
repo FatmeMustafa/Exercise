@@ -1,5 +1,5 @@
 /**
- * 
+ 
  * Objektet FormValidator nedan kommer finnas tillgängligt i din kodfil, och kan användas för att validera formulärdata.
  * 
  * -------- Validaringen måste först förberedas, vilket sker i 3 steg:
